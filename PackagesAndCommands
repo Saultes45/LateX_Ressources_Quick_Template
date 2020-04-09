@@ -1,0 +1,85 @@
+%---------------------------Included Packages------------------------------------
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{import}
+\usepackage{epstopdf}
+
+
+%---------------------------My Packages------------------------------------
+\usepackage{mathtools}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{verbatim}
+\usepackage{tabu}
+\usepackage{pifont}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+%algorithms
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+%\usepackage{algorithm}
+%\usepackage[noend]{algpseudocode}
+%\usepackage[ruled,vlined, options]{algorithm2e}
+%\include{pythonlisting}
+%\usepackage{algorithmicx}
+
+
+%-----------------------For draft-- to be removed after review---------------------------------
+% for replacing images by placeholders (ie white rectangles)
+%\usepackage[draft]{graphicx}
+
+% for TODO notes
+\usepackage[colorlinks]{hyperref}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{verbatim}
+
+
+% for line numbers, for draft only
+\usepackage{lineno} 
+\linenumbers
+
+% for page numbers, for draft only
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+% for Watermak, gray , For peer revision only
+\usepackage{draftwatermark}
+\SetWatermarkText{\textsc{For peer review only}}
+\SetWatermarkScale{0.5}
+\SetWatermarkColor[gray]{0.8}
+
+% for color titles
+\usepackage{titlesec}
+\usepackage{xcolor}
+\colorlet{sectitlecolor}{red!60}
+\colorlet{sectboxcolor}{cyan!30}
+\colorlet{secnumcolor}{orange}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{sectitlecolor}}{\colorbox{sectboxcolor}{\textcolor{secnumcolor}{\thesection}}}{0.75em}{}
+\titleformat{\subsection}
+  {\color{sectitlecolor}}{\colorbox{sectboxcolor}{\textcolor{secnumcolor}{\thesection}}}{0.5em}{}  
+
+
+%---------------------------My Commands------------------------------------
+\newcommand{\circoneone}{\mbox{\textcircled{\tiny 1}}}%
+\newcommand{\circonetwo}{\mbox{\textcircled{\tiny 2}}}%
+\newcommand{\circonethree}{\mbox{\textcircled{\tiny 3}}}%
+\newcommand{\circonefour}{\mbox{\textcircled{\tiny 4}}}%
+
+% - Results commands
+\newcommand{\insertMyH}{$-1.1119$}
+\newcommand{\insertMymeasurement}{$3.8$}
+
+%---------------------------For bibl. ref.------------------------------------
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
