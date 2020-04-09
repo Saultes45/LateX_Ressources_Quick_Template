@@ -1,0 +1,23 @@
+% use this website: https://www.tablesgenerator.com/
+%pro tip: use the table formating dropdown menu (right side) to use standard formating
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[htbp]
+\centering
+\caption{Result of the affiliation decision of the different algorithm considered for the simulation}
+\label{tab:<insert a usefull name here>}
+\begin{tabular}{@{}clll@{}}
+\end{tabular}
+\end{table}
+
+
+
+
+
+Include in your file: 
