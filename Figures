@@ -1,0 +1,5 @@
+\begin{figure}[htbp]
+\includegraphics[width=70mm]{<folder name>/<file name with extension>}
+\caption{<insert a cation here>}
+\label{figure:<insert a label here>}
+\end{figure}
