@@ -1,0 +1,20 @@
+\begin{algorithm}
+\DontPrintSemicolon
+\SetAlgoLined
+\KwResult{LLR threshold H}
+
+% \While{}{
+    User defines the number of possible decisions $r+1$ (minimum 2)\;
+    $j \gets i \gets r+1$\;
+    Initialise ${\pmb{C}}$\;
+    $\forall \eta \in \left[ 0,r \right],{{C}_{\eta\eta}}=0$\;
+    User defines remaining of sanction matrix $\pmb{C}$\;
+    User draws a large number of measurements $X$\;
+    Each draw $X$ is associated with certitude to one and only one hypothesis ${\mathcal{H}_{\eta}}$\;
+    ${{f}_{X|{\mathcal{H}_{\eta}}}}$ are defined to match as close as possible previous draws affiliation\;
+    Calculate ${{P}_{FA}}$ and ${{P}_{MD}}$ with (\ref{eq:CDFH1}) and (\ref{eq:CDFH0})\;
+    Calculate $h$ with (\ref{eq:LLRratiocost})\;
+    Calculate $H$ with (\ref{eq:LLRratiocost2})\;
+%}
+ \caption{<insert cation here>}\label{alg:insert label here}
+\end{algorithm}
