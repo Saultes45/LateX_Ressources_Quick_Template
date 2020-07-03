@@ -1,29 +1,9 @@
 \begin{equation}
-\left[ \begin{matrix}
-   {{m}_{yInrt}}  \\
-   {{I}_{zzInrt}}  \\
-   {{I}_{xxInrt}}  \\
-\end{matrix} \right]\cdot \left[ \begin{matrix}
-   \dot{v}+u\cdot r  \\
-   {\dot{r}}  \\
-   {\dot{p}}  \\
-\end{matrix} \right]=\left[ \begin{matrix}
-   {\Upsilon}_{Inrt}  \\
-   {N}_{Inrt}  \\
-   {K}_{Inrt}  \\
-\end{matrix} \right]
-    \label{eq:tensornewtoninrt}
+    \label{eq:ameaningfultag}
 \end{equation}
 
 Where:
 \begin{itemize}
-    \item $v, u$ represent respectfully the sway and surge velocities in $Inrt$
-    %\item ${y}_{Geo}$ represents East component of the boat's CoM position in $Geo$
-    \item $\phi$, $p$ represent respectively the roll angle the roll speed
-    \item $\psi$, $r$ represent respectively the heading angle the heading speed 
-    \item ${{m}_{yGeo}, {m}_{yInrt}}$ represent the effective mass of the ship in the ${y}$ direction respectfully in $Geo$ and $Inrt$
-    \item ${I}_{zzGeo}, {I}_{xxGeo}$ represent respectively the moments of inertia with respect to the $z$ and $x$ axes in $Geo$
-    \item ${I}_{zzInrt}, {I}_{xxInrt}$ represent respectively the moments of inertia with respect to the $z$ and $x$ axes $Inrt$
-    \item ${\Upsilon}_{Geo}, {\Upsilon}_{Inrt}$ represent the force in the $y$ axis respectively in $Geo$ and $Inrt$
-    \item ${N}_{Geo}, {K}_{Geo}, {N}_{Inrt}, {K}_{Inrt}$ represent respectively the momenta with respect to the $z$ and $x$ axes, respectively in $Geo$ and $Inrt$
+    \item $v, u$ represent respectfully the sway and surge velocities in ....
+    \item ${N}_{Geo}, {K}_{Geo}, {N}_{Inrt}, {K}_{Inrt}$ represent respectively the ....
 \end{itemize}
