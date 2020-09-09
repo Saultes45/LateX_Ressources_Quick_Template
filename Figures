@@ -3,3 +3,14 @@
 \caption{<insert a cation here>}
 \label{figure:<insert a label here>}
 \end{figure}
+
+
+Fig. \ref{figure:effectwaveroll2} represents the different phases of the roll of the vessel subject to a single beam wave as described previously.
+%----------------------------------------------------------
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=160mm]{Chapters/Chapter_2/Images/Effect_Wave_Roll.eps}
+\caption{The different phases of the roll of the vessel subject to a single beam wave}
+\label{figure:effectwaveroll2}
+\end{figure}
+%----------------------------------------------------------
