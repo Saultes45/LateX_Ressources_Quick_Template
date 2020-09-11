@@ -1,3 +1,13 @@
+% ----- figure --------
+\begin{figure}[htbp]
+\centering
+    \includegraphics[width=160mm]{Chapters/Chapter_2/Images/WaveDampingConcept.eps}
+    \caption{Wave Damping Concept}
+    \label{fig:wavedampingconcept} 
+\end{figure}
+% -----------------
+
+
 \begin{figure}[htbp]
 \includegraphics[width=70mm]{<folder name>/<file name with extension>}
 \caption{<insert a cation here>}
