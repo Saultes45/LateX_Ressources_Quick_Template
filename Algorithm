@@ -1,3 +1,15 @@
+
+%----------------------------------
+% To add in the preamble:
+
+\usepackage[utf8]{inputenc} % what does that do?
+\usepackage{algorithm}
+%\usepackage[algo2e]{algorithm2e} 
+\usepackage[noend]{algpseudocode}
+
+%----------------------------------
+% Simple
+
 \begin{algorithm}
 \DontPrintSemicolon
 \SetAlgoLined
@@ -17,4 +29,39 @@
     Calculate $H$ with (\ref{eq:LLRratiocost2})\;
 %}
  \caption{<insert cation here>}\label{alg:insert label here}
+\end{algorithm}
+
+
+%----------------------------------
+% Complete
+
+
+
+\begin{algorithm}
+\caption{Put your caption here}
+
+\begin{algorithmic}[1]
+
+\Procedure{Roy}{$a,b$}       \Comment{This is a test}
+    \State System Initialization
+    \State Read the value 
+    \If{$condition = True$}
+        \State Do this
+        \If{$Condition \geq 1$}
+        \State Do that
+        \ElsIf{$Condition \neq 5$}
+        \State Do another
+        \State Do that as well
+        \Else
+        \State Do otherwise
+        \EndIf
+    \EndIf
+
+    \While{$something \not= 0$}  \Comment{put some comments here}
+        \State $var1 \leftarrow var2$  \Comment{another comment}
+        \State $var3 \leftarrow var4$
+    \EndWhile  \label{roy's loop}
+\EndProcedure
+
+\end{algorithmic}
 \end{algorithm}
