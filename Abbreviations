@@ -1,0 +1,129 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       List of Abbreviations
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Metadata
+% Written by    : Nathanaël Esnault
+% Verified by   : Nobody yet
+% Creation date : 2021-03-04
+% Version       : 0.1 (finished on ...)
+% Modifications :
+% Known bugs    :
+
+
+%-------------- List of simple replace text ---------------
+\newcommand{\finish}{\hl{insert text here}}
+
+\newcommand{\gmat}{$\mathbf{G}\text{ }$}
+\newcommand{\hmat}{$\mathbf{H}\text{ }$}
+\newcommand{\hotmat}{$\mathbf{H_1}$+$\mathbf{H_2}\text{ }$}
+\newcommand{\homat}{$\mathbf{H_1}\text{ }$}
+\newcommand{\htmat}{$\mathbf{H_2}\text{ }$}
+
+% \newabbreviation {label} {abrreviationUPPERCASE)} {Long Name}
+
+%------------- Global -------------------------------------
+\newabbreviation{rt}{RT}{Real Time}
+
+\newabbreviation{dwl}{DWL}{Designed Water Line}
+\newabbreviation{com}{CoM}{Center of Mass}
+\newabbreviation{cot}{CoT}{Center of Thrust}
+\newabbreviation{cob}{CoB}{Center of Buoyancy}
+\newabbreviation{dof}{DoF}{Degree of Freedom}
+\newabbreviation{aoa}{AoA}{Angle of Attack}
+\newabbreviation{icc}{ICC}{Instantaneous Center of Curvature}
+\newabbreviation{icr}{ICR}{Instantaneous Center of Rotation}
+
+\newabbreviation{ls}{LS}{Least Squares}
+\newabbreviation{lms}{LMS}{Least Mean Squares}
+
+\newabbreviation{simo}{SIMO}{Single Input Multiple Outputs}
+
+\newabbreviation{fe}{FE}{Finite Element}
+
+\newabbreviation{cw}{CW}{Clock-Wise}
+\newabbreviation{ccw}{CCW}{Counter Clock-Wise}
+
+
+
+%------------- uController, Hardware ------------------------------------
+\newabbreviation{psoc}{PSoC}{Programmable System on a Chip}
+\newabbreviation{rpi}{RPi}{Raspberry Pi}
+\newabbreviation{fpga}{FPGA}{Field Programmable Gate Arrays}
+\newabbreviation{gpu}{GPU}{Graphics Processing Unit}
+
+%------------- Boat/Vessel/Maritime -------------------------------------
+\newabbreviation{roro}{RORO}{Roll-On/Roll-Off}
+\newabbreviation{vdr}{VDR}{Vessel Data Recorder}
+\newabbreviation{ap}{A/P}{Autopilot}
+
+\newabbreviation{imo}{IMO}{International Maritime Organisation}
+\newabbreviation{ism}{ISM}{International Safety Management}
+
+\newabbreviation{ps}{p/s}{propulsion and steering}
+\newabbreviation{psa}{p/s-A}{propulsion and steering asymmetry}
+\newabbreviation{tha}{th-A}{thrust asymmetry}
+\newabbreviation{pr}{p/r}{propeller and rudder}
+
+\newabbreviation{ssf}{SSF}{Suction Stabilised Float}
+\newabbreviation{dp}{DP}{Dynamic Positioning}
+\newabbreviation{art}{ART}{Anti-Rolling Tank}
+\newabbreviation{rrs}{RRS}{Rudder Roll Stabilization}
+\newabbreviation{rao}{RAO}{Response Amplitude Operators}
+
+%------------- Frames of references -------------------------------------
+\newabbreviation{eceft}{ECEFT}{Earth-Centred, Earth-Fixed Frame}
+\newabbreviation{ned}{NED}{North East Down}
+\newabbreviation{enu}{ENU}{East North Up}
+
+% Why the math environment though?
+\newabbreviation{geo}{$Geo$}{} % PFLLR paper previously called "geo"
+\newabbreviation{inrt}{$Inrt$}{} % PFLLR paper previously called "Inrt"
+\newabbreviation{bf}{$BF$}{} % PFLLR paper previously called "Inrt"
+
+%------------- USV -------------------------------------
+\newabbreviation{usv}{USV}{Unmaned Surface Vehicle}
+\newabbreviation{esc}{ESC}{Electronic Speed Controller}
+\newabbreviation{sprs}{SPRS}{Single Propeller-Rudder System}
+\newabbreviation{djps}{DJPS}{Differential Jet Pump System}
+\newabbreviation{rpm}{RPM}{Rotations Per Minute}
+\newabbreviation{rps}{RPS}{Rotations Per Seconds}
+
+
+%---------------------- GPS/IMU ---------------------
+\newabbreviation{gps}{GPS}{Global Positioning System}
+\newabbreviation{gnss}{GNSS}{Global Navigation Satellite System}
+\newabbreviation{rtk}{RTK}{Real-Time Kinematic}
+\newabbreviation{ppk}{PPK}{Post-process Kinematic}
+\newabbreviation{imu}{IMU}{Inertial Measurement Unit}
+\newabbreviation{mimu}{MIMU}{Multi-IMU}
+\newabbreviation{mru}{MRU}{Motion Reference Unit} % for boats
+
+
+
+
+%---------------------- PFLLR ---------------------
+\newabbreviation{pf}{PF}{Particle Filter}
+\newabbreviation{sir}{SIR}{Sequential Importance Resampling}
+\newabbreviation{llr}{LLR}{Log-Likelihood Ratio}
+\newabbreviation{pfllr}{PF-LLR}{Particle Filter Log-Likelihood Ratio}
+\newabbreviation{pfmpc}{PF-MPC}{Particle Filter-Model Predictive Control}
+\newabbreviation{kf}{KF}{Kalman Filter}
+\newabbreviation{ekf}{EKF}{Extended Kalman Filter}
+\newabbreviation{ukf}{UKF}{Unscented Kalman Filter}
+\newabbreviation{mpc}{MPC}{Model Predictive Control}
+\newabbreviation{hmm}{HMM}{Hidden Markov Model}
+
+\newabbreviation{pdf}{PDF}{Probability Density Function}
+\newabbreviation{cdf}{CDF}{Cumulative Density Function}
+
+
+\newabbreviation{snr}{SNR}{Signal-to-Noise Ratio}
+\newabbreviation{roc}{ROC}{Receiver Operating Characteristics}
+
+
+
+
+% END OF FILE
